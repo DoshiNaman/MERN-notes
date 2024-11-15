@@ -7,6 +7,7 @@ import { Plus } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { format } from 'date-fns';
 import { toast } from "sonner";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -121,6 +122,11 @@ const Home = () => {
 
         />
       </div>
+      <footer className="bg-gray-800 text-white text-center p-4 mt-6">
+        <p>© {new Date().getFullYear()} <Link className="underline text-blue-400" to={"https://www.linkedin.com/in/naman-doshi-007/"} target="_blank">NAMAN</Link>. All rights reserved.</p>
+        <p>Developed by <Link className="underline text-blue-400" to={"https://www.linkedin.com/in/naman-doshi-007/"} target="_blank">NAMAN</Link></p>
+        <p>Tech Stack: MERN (MongoDB, Express, React, Node.js)</p>
+      </footer>
     </>
   );
 };

@@ -86,6 +86,12 @@ This is a Notes application built using the MERN stack (MongoDB, Express.js, Rea
 - Utilize the search bar to find notes quickly.
 - Tag your notes for better organization.
 
+## Developer Information
+
+- **Name**: Naman Doshi
+- **LinkedIn**: [Naman Doshi](https://www.linkedin.com/in/naman-doshi-007/)
+- **GitHub**: [DoshiNaman](https://github.com/DoshiNaman)
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.

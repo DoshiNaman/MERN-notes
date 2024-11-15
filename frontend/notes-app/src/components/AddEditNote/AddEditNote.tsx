@@ -28,9 +28,6 @@ export function AddEditNote({ open, onOpenChange, isEdit, setOpen, setIsEdit, ed
       setError("please fill title");
     } else if (content.length <= 0) {
       setError("please fill content");
-    } else if (tags.length <= 0) {
-      setError("please fill tags");
-    } else {
       if (isEdit) {
         axios.put(`/api/note/edit/${editId}`, { title, content, tags })
           .then(response => {

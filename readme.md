@@ -57,7 +57,7 @@ This is a Notes application built using the MERN stack (MongoDB, Express.js, Rea
 1. Create a `.env` file in the `backend` directory and add your MongoDB connection string:
 
    ```plaintext
-   CONNECTION_STRING=mongodb://<username>:<password>@localhost:27017/notes
+   connectionString=mongodb://<username>:<password>@localhost:27017/notes
    ```
 
 2. Replace `<username>` and `<password>` with your MongoDB credentials.

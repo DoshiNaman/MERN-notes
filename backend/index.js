@@ -115,6 +115,6 @@ app.delete("/api/note/delete/:id", async (req, res) => {
   }
 });
 
-app.listen(8000);
+app.listen(3000);
 
 module.exports = app;
